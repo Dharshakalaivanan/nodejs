@@ -40,15 +40,9 @@ console.log(num)
 // -----------------------------------
 
 let num;
+sum=0;
 for(num=1;num<=10;num++)
 {
-    if(num%2==0)
-    {
-    console.log("even number");
-    }
-
-else
-{
-    console.log("odd number");
-}
-}
+ sum+=num;
+ console.log(sum);
+}  
