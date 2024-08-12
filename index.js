@@ -39,11 +39,16 @@ console.log(num)
 
 // -----------------------------------
 
-let num=100;
-if(num%2==0)
+let num;
+for(num=1;num<=10;num++)
 {
+    if(num%2==0)
+    {
     console.log("even number");
-}
-else{
+    }
+
+else
+{
     console.log("odd number");
+}
 }
