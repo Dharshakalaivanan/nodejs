@@ -39,11 +39,11 @@ console.log(num)
 
 // -----------------------------------
 
-let num=100;
-if(num%2==0)
+let num;
+sum=0;
+for(num=1;num<=10;num++)
 {
-    console.log("even number");
-}
-else{
-    console.log("odd number");
-}
+ sum+=num;
+ console.log(sum);
+ console.log("Hello");
+}  
